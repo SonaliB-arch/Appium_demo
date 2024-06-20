@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="1" >
+	
+ <test name="Adndroid 10.0">
+ <parameter name="deviceName_" value="Pixel"/>
+ <parameter name="UDID_" value="emulator-5556"/>
+ <parameter name="platformVersion_" value="7.0"/>
+ <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+ <classes>
+     <class name="pk_appium.Calculator_Parameter_Example"/>
+ </classes>
+</test>
+
+ <test name="Adndroid 7.0">
+ <parameter name="deviceName_" value="Pixel_New"/>
+ <parameter name="UDID_" value="emulator-5554"/>
+ <parameter name="platformVersion_" value="7.0"/>
+ <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+ <classes>
+    <class name="pk_appium.Calculator_Parameter_Example"/>
+ </classes>
+</test>
+
+</suite> <!-- Suite -->
+
