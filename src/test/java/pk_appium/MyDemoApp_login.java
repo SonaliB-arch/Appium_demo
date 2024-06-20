@@ -20,7 +20,7 @@ public class MyDemoApp_login {
 	public WebDriverWait wait;
 
 	@BeforeTest
-	public void setUp() throws MalformedURLException {
+	public void LaunchApp() throws MalformedURLException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("deviceName","Nexus");
 		caps.setCapability("udid", "emulator-5554");
